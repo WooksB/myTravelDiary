@@ -12,6 +12,10 @@
 		EAF7A6121F46BB4500F84755 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF7A6101F46BB4500F84755 /* Main.storyboard */; };
 		EAF7A6141F46BB4500F84755 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF7A6131F46BB4500F84755 /* Assets.xcassets */; };
 		EAF7A6171F46BB4500F84755 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF7A6151F46BB4500F84755 /* LaunchScreen.storyboard */; };
+		EAF7A61F1F46BB7500F84755 /* Travel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF7A61E1F46BB7500F84755 /* Travel.swift */; };
+		EAF7A6211F46BC8F00F84755 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF7A6201F46BC8F00F84755 /* User.swift */; };
+		EAF7A6231F46BE0D00F84755 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF7A6221F46BE0D00F84755 /* Destination.swift */; };
+		EAF7A6251F46BF0900F84755 /* SubDiary.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF7A6241F46BF0900F84755 /* SubDiary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		EAF7A6131F46BB4500F84755 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAF7A6161F46BB4500F84755 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EAF7A6181F46BB4500F84755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAF7A61E1F46BB7500F84755 /* Travel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Travel.swift; sourceTree = "<group>"; };
+		EAF7A6201F46BC8F00F84755 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EAF7A6221F46BE0D00F84755 /* Destination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		EAF7A6241F46BF0900F84755 /* SubDiary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubDiary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				EAF7A6131F46BB4500F84755 /* Assets.xcassets */,
 				EAF7A6151F46BB4500F84755 /* LaunchScreen.storyboard */,
 				EAF7A6181F46BB4500F84755 /* Info.plist */,
+				EAF7A61E1F46BB7500F84755 /* Travel.swift */,
+				EAF7A6201F46BC8F00F84755 /* User.swift */,
+				EAF7A6221F46BE0D00F84755 /* Destination.swift */,
+				EAF7A6241F46BF0900F84755 /* SubDiary.swift */,
 			);
 			path = MyTravelDiary;
 			sourceTree = "<group>";
@@ -136,7 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAF7A6211F46BC8F00F84755 /* User.swift in Sources */,
+				EAF7A61F1F46BB7500F84755 /* Travel.swift in Sources */,
+				EAF7A6231F46BE0D00F84755 /* Destination.swift in Sources */,
 				EAF7A60F1F46BB4500F84755 /* ViewController.swift in Sources */,
+				EAF7A6251F46BF0900F84755 /* SubDiary.swift in Sources */,
 				EAF7A60D1F46BB4500F84755 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
