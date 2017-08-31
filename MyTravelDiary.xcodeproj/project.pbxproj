@@ -317,6 +317,7 @@
 				EAF7A61D1F46BB4500F84755 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
