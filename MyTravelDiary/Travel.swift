@@ -22,7 +22,8 @@ class Travel {
     var regDate:String?
     var subDiary:SubDiary?
     
-    init (user:User, startDate:String, endDate:String, title:String, detail:String, coverImage:UIImage, destination:Destination) {
+    init (index:Int, user:User, startDate:String, endDate:String, title:String, detail:String, coverImage:UIImage, destination:Destination) {
+        self.index = index
         self.user = user
         self.startDate = startDate
         self.endDate = endDate
@@ -30,6 +31,8 @@ class Travel {
         self.detail = detail
         self.coverImage = coverImage
         self.destination = destination
+        self.regDate = nil
+        self.subDiary = nil
     }
     
     func insertSubDiary(destination:Destination, title:String, detail:String, image:[UIImage], startDate:String, endDate:String, mainIndex:Int) {

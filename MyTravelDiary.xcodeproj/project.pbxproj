@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C8B536B1F9A16E70025B688 /* TravelListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8B536A1F9A16E70025B688 /* TravelListTableViewController.swift */; };
+		6C8B536D1F9A22F00025B688 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8B536C1F9A22F00025B688 /* DetailViewController.swift */; };
+		6C8B536F1F9A23200025B688 /* AddTravelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8B536E1F9A23200025B688 /* AddTravelViewController.swift */; };
 		EAF7A60D1F46BB4500F84755 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF7A60C1F46BB4500F84755 /* AppDelegate.swift */; };
 		EAF7A60F1F46BB4500F84755 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF7A60E1F46BB4500F84755 /* ViewController.swift */; };
 		EAF7A6121F46BB4500F84755 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF7A6101F46BB4500F84755 /* Main.storyboard */; };
@@ -19,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C8B536A1F9A16E70025B688 /* TravelListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelListTableViewController.swift; sourceTree = "<group>"; };
+		6C8B536C1F9A22F00025B688 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		6C8B536E1F9A23200025B688 /* AddTravelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTravelViewController.swift; sourceTree = "<group>"; };
 		EAF7A6091F46BB4500F84755 /* MyTravelDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTravelDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF7A60C1F46BB4500F84755 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAF7A60E1F46BB4500F84755 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +78,9 @@
 				EAF7A6201F46BC8F00F84755 /* User.swift */,
 				EAF7A6221F46BE0D00F84755 /* Destination.swift */,
 				EAF7A6241F46BF0900F84755 /* SubDiary.swift */,
+				6C8B536A1F9A16E70025B688 /* TravelListTableViewController.swift */,
+				6C8B536C1F9A22F00025B688 /* DetailViewController.swift */,
+				6C8B536E1F9A23200025B688 /* AddTravelViewController.swift */,
 			);
 			path = MyTravelDiary;
 			sourceTree = "<group>";
@@ -149,11 +158,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAF7A6211F46BC8F00F84755 /* User.swift in Sources */,
+				6C8B536F1F9A23200025B688 /* AddTravelViewController.swift in Sources */,
+				6C8B536B1F9A16E70025B688 /* TravelListTableViewController.swift in Sources */,
 				EAF7A61F1F46BB7500F84755 /* Travel.swift in Sources */,
 				EAF7A6231F46BE0D00F84755 /* Destination.swift in Sources */,
 				EAF7A60F1F46BB4500F84755 /* ViewController.swift in Sources */,
 				EAF7A6251F46BF0900F84755 /* SubDiary.swift in Sources */,
 				EAF7A60D1F46BB4500F84755 /* AppDelegate.swift in Sources */,
+				6C8B536D1F9A22F00025B688 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
